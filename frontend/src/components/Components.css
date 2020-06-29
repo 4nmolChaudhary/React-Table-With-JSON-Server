@@ -1,0 +1,68 @@
+.header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 25px 0 0;
+  background: #fff;
+  border-radius: 0px 14px 0 0;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.header div, .header .creater {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div svg, .header .creater svg {
+  width: 40px;
+  height: 40px;
+}
+
+.header div h2, .header .creater h2 {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.header .creater svg {
+  width: 30px;
+  height: 30px;
+  background: #d8dadd;
+  border-radius: 18px;
+}
+
+.header .creater h3 {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #C6CDD5;
+}
+
+.leftbar {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  border-radius: 14px 0 0 14px;
+  border-right: 2px solid #f8f8f8;
+  padding: 10px 25px;
+}
+
+.leftbar svg {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=Components.css.map */

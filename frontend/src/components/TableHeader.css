@@ -1,0 +1,40 @@
+.header_container {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1/12;
+  padding: 0 10px;
+  border-radius: 14px;
+  margin: 3px 0;
+  -webkit-box-shadow: 4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header_container .id, .header_container .name, .header_container .cargo, .header_container .mode, .header_container .type, .header_container .origin, .header_container .destination, .header_container .services, .header_container .total, .header_container .status, .header_container .userid {
+  background: #FF256F;
+  padding: 16px 10px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: 'GoogleSans-Bold';
+  font-size: 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.header_container .id:hover, .header_container .name:hover, .header_container .cargo:hover, .header_container .mode:hover, .header_container .type:hover, .header_container .origin:hover, .header_container .destination:hover, .header_container .services:hover, .header_container .total:hover, .header_container .status:hover, .header_container .userid:hover {
+  cursor: pointer;
+  background: #d40148;
+}
+
+.header_container .id {
+  border-top-left-radius: 14px;
+}
+
+.header_container .userid {
+  border-top-right-radius: 14px;
+}
+/*# sourceMappingURL=TableHeader.css.map */

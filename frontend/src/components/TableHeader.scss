@@ -1,0 +1,31 @@
+.header_container{
+    grid-row: 3/4;
+    grid-column: 1/12;
+    padding: 0 10px;
+    border-radius: 14px;
+    margin:3px 0;
+    box-shadow:4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+    
+    .id,.name,.cargo,.mode,.type,.origin,.destination,.services,.total,.status,.userid{
+        background: #FF256F;
+        padding: 16px 10px;
+        border: none;
+        outline: none;
+        color:#FFF;
+        font-family: 'GoogleSans-Bold';
+        font-size: 16px;
+        position: sticky;
+    top: 0;
+        &:hover{
+            cursor: pointer;
+            background: #d40148;
+        }
+    }
+    .id{
+        border-top-left-radius: 14px;
+    }
+    .userid{
+        border-top-right-radius: 14px;
+    }
+}
+

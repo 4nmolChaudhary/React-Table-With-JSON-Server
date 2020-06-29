@@ -1,0 +1,49 @@
+.header{
+    grid-column: 1/12;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 25px 0 0;
+    background: #fff;
+    border-radius: 0px 14px 0 0;
+    width: 100%;
+    height: max-content;
+    div,.creater{
+        display: flex;
+        align-items: center;
+        svg{
+            width:40px;
+            height:40px;
+        }
+        h2{
+            margin-left: 10px;
+            font-size: 22px;
+        }
+    }
+    .creater{
+        svg{
+            width:30px;
+            height:30px;
+            background: #d8dadd;
+            border-radius: 18px;
+        }
+        h3{
+            margin-left: 10px;
+            font-size: 16px;
+            color: #C6CDD5;
+        }
+    }
+}
+
+.leftbar{
+    height: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius:14px 0 0 14px;
+    border-right: 2px solid #f8f8f8;
+    padding: 10px 25px;
+    svg{
+        width:40px;
+        height:40px;
+    }
+}

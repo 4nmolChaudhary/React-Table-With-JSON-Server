@@ -1,0 +1,38 @@
+/*---------------------------------- fonts ----------------------------------*/
+@font-face {
+  font-family: "GoogleSans-Bold";
+  src: url("./fonts/GoogleSans-Bold.ttf");
+}
+@font-face {
+  font-family: "GoogleSans-Regular";
+  src: url("./fonts/GoogleSans-Regular.ttf");
+}
+
+.App {
+  font-family: "GoogleSans-Bold";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg,#FFF5E9,#F9E0E3);
+}
+
+.main{
+  width:90%;
+  height:85%;
+  background: #f8f8f8;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 14px;
+  box-shadow:4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+
+.main .content{
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+    grid-template-columns: repeat(11,minmax(auto,1fr));
+    grid-template-rows: 1fr 1fr 9fr 1fr;
+}

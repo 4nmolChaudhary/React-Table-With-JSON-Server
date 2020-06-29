@@ -1,0 +1,51 @@
+.data_table {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1/12;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  overflow-y: scroll;
+}
+
+.data_table::-webkit-scrollbar {
+  width: 4px;
+}
+
+.data_table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.data_table::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.data_table::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.data_table .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data_table .table .data_row {
+  border-radius: 8px;
+  background: #fff;
+  width: 100%;
+  margin: 2px 0;
+  -webkit-box-shadow: 4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 4px 2px 20px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'GoogleSans-Regular';
+  color: #455971;
+  font-weight: 800;
+  margin: 0 10px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.data_table .table .data_row .id, .data_table .table .data_row .name, .data_table .table .data_row .cargo, .data_table .table .data_row .mode, .data_table .table .data_row .type, .data_table .table .data_row .services, .data_table .table .data_row .total, .data_table .table .data_row .status, .data_table .table .data_row .userid {
+  padding: 18px 32px;
+}
+/*# sourceMappingURL=DataRow.css.map */
